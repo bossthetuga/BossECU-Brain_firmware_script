@@ -1358,7 +1358,7 @@
 #define pedalSensor_NAME "Accelerator pedal"
 #define pedalToTpsTbl_NAME "ETB pedal target"
 #define PERCENT_TRIM_BYTE_PACKING_DIV 0.02
-#define persistent_config_s_size 23780
+#define persistent_config_s_size 24228
 #define pid_s_size 20
 #define pin_input_mode_e_auto_enum 0="PI_DEFAULT",4="PI_INVERTED_DEFAULT",6="PI_INVERTED_PULLDOWN",5="PI_INVERTED_PULLUP",2="PI_PULLDOWN",1="PI_PULLUP"
 #define pin_input_mode_e_enum "DEFAULT", "PULLUP", "PULLDOWN", "INVALID", "INVERTED DEFAULT", "INVERTED PULLUP", "INVERTED PULLDOWN"
@@ -1435,7 +1435,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 765365
+#define SIGNATURE_HASH 2346072146
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1502,7 +1502,7 @@
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_BUTTON 0
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_DOWN_SWITCH 2
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_UP_SWITCH 3
-#define TOTAL_CONFIG_SIZE 23780
+#define TOTAL_CONFIG_SIZE 24228
 #define TPS_2_BYTE_PACKING_MULT 100
 #define TPS_PPS_TOO_HIGH_THRESHOLD 110
 #define TPS_PPS_TOO_LOW_THRESHOLD -10
@@ -1709,6 +1709,7 @@
 #define TS_COMPOSITE_READ 3
 #define TS_CRC_CHECK_COMMAND 'k'
 #define TS_CRC_CHECK_COMMAND_char k
+#define ts_drop_template_comments true
 #define TS_EXECUTE 'E'
 #define TS_EXECUTE_char E
 #define TS_GET_COMPOSITE_BUFFER_DONE_DIFFERENTLY '8'
@@ -1763,7 +1764,7 @@
 #define ts_show_air_conditioning true
 #define ts_show_alternator true
 #define ts_show_analog_diag false
-#define ts_show_analog_divider true
+#define ts_show_analog_divider false
 #define ts_show_analog_ego true
 #define ts_show_analog_input_settings true
 #define ts_show_analog_o2 true
@@ -1783,7 +1784,7 @@
 #define ts_show_can_wbo_type true
 #define ts_show_charge_estimation true
 #define ts_show_check_engine false
-#define ts_show_clt_iat_pullup true
+#define ts_show_clt_iat_pullup false
 #define ts_show_clutch_down true
 #define ts_show_clutch_down_pin true
 #define ts_show_clutch_up true
@@ -1861,7 +1862,7 @@
 #define ts_show_gppwm4_pin true
 #define ts_show_hardware_simulator false
 #define ts_show_hbridge_function true
-#define ts_show_hd true
+#define ts_show_hd false
 #define ts_show_iat true
 #define ts_show_idle_hardware true
 #define ts_show_ign_key_analog_input false
@@ -1877,11 +1878,11 @@
 #define ts_show_intake_cam_edge true
 #define ts_show_intake_vvt_direction true
 #define ts_show_jam_detection true
-#define ts_show_k_line false
+#define ts_show_k_line true
 #define ts_show_knock_cylinder_mapping true
 #define ts_show_l9779 false
 #define ts_show_maf true
-#define ts_show_main_relay true
+#define ts_show_main_relay false
 #define ts_show_main_relay_microRusEFI_message false
 #define ts_show_mc33810 false
 #define ts_show_mc33810_cs false
@@ -1936,7 +1937,7 @@
 #define ts_show_trigger_overrides true
 #define ts_show_trigger_pins true
 #define ts_show_tsp_pps_limits true
-#define ts_show_tunerstudio_port true
+#define ts_show_tunerstudio_port false
 #define ts_show_useRunningMathForCranking true
 #define ts_show_useSeparateVeForIdle true
 #define ts_show_vbatt true
@@ -1953,7 +1954,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.05.23.BossBrain.765365"
+#define TS_SIGNATURE "rusEFI main.2025.05.23.BossBrain.2346072146"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
@@ -2049,7 +2050,7 @@
 #define vvt_mode_e_VVT_TOYOTA_4_1 6
 #define vvt_mode_e_VVT_UNUSED_17 17
 #define VVT_OFFSET_1_1_NAME "VVT offset bank 1 intake"
-#define VVT_TABLE_SIZE 8
+#define VVT_TABLE_SIZE 16
 #define VVT_TRACKING_LENGTH 4
 #define WARNING_BUFFER_SIZE 120
 #define WWAE_TABLE_SIZE 8
