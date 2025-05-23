@@ -5,7 +5,6 @@
  */
 
 #include "pch.h"
-#define EFI_ENABLE_BLUETOOTH
 
 static void setInjectorPins() {
 	engineConfiguration->injectionPins[0] = Gpio::F13;
