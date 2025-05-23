@@ -9,12 +9,13 @@
 #define ts_show_maf true
 #define VVT_TABLE_SIZE 16
 
-
-#define VE_RPM_COUNT 20
-#define VE_LOAD_COUNT 20
-
-//#define FUEL_LOAD_COUNT 20
-//#define FUEL_RPM_COUNT 20
+//VE, IGN, AFR
+#define VE_RPM_COUNT 32
+#define VE_LOAD_COUNT 32
+#define IGN_RPM_COUNT 32
+#define IGN_LOAD_COUNT 32
+#define FUEL_LOAD_COUNT 32
+#define FUEL_RPM_COUNT 32
 
 // Comms
 #define ts_show_spi true
