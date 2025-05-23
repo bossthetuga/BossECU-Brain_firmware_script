@@ -1,22 +1,34 @@
 #define MAIN_HELP_URL "https://discord.com/invite/dHEymCZ"
-#define FRONTEND_TITLE_BAR_NAME "BB-TEST"
 
 //Features
 #define ts_show_etb_pins true
 #define ts_show_software_knock true
+#define ts_show_egt true
+#define ts_drop_template_comments true
+#define ts_show_k_line true
+#define ts_show_maf true
+#define VVT_TABLE_SIZE 16
 
 // Comms
 #define ts_show_spi true
 #define ts_show_can2 true
+#define ts_show_sd_card true
+#define ts_show_sd_pins true
 
 //Not used
 #define ts_show_hardware_simulator false
 #define ts_show_tcu false
 #define ts_show_gdi false
 #define ts_show_fancy_hardware false
+#define ts_show_hd false
+#define ts_show_clt_iat_pullup false
 
 //Not useful
 #define ts_show_check_engine false
+#define ts_show_analog_divider false
+#define ts_show_tunerstudio_port false
+#define ts_show_main_relay false
+
 
 //Disable more than 8 cylinders
 //#define ts_show_fuel_trim_cylinder_10 false
