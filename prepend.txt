@@ -8,6 +8,8 @@
 #define ts_show_k_line true
 #define ts_show_maf true
 #define VVT_TABLE_SIZE 16
+#define FUEL_LOAD_COUNT 20
+#define FUEL_RPM_COUNT 20
 
 // Comms
 #define ts_show_spi true
