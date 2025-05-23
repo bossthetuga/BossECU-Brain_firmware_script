@@ -6,6 +6,9 @@ BOARDINC += $(BOARD_DIR)/generated/controllers/generated
 # defines SHORT_BOARD_NAME
 include $(BOARD_DIR)/meta-info.env
 
+#undef EFI_BLUETOOTH_SETUP
+#define EFI_BLUETOOTH_SETUP FALSE
+
 # assign critical LED to a non-existent pin
 DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::G11
 
