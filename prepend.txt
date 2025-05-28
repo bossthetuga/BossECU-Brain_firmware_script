@@ -1,5 +1,9 @@
 #define MAIN_HELP_URL "https://discord.com/invite/dHEymCZ"
 
+//Test
+#define ts_show_tunerstudio_port true
+#define EFI_ENABLE_BLUETOOTH
+
 //Features
 #define ts_show_etb_pins true
 #define ts_show_software_knock true
@@ -7,15 +11,15 @@
 #define ts_drop_template_comments true
 #define ts_show_k_line true
 #define ts_show_maf true
-#define VVT_TABLE_SIZE 16
 
-//VE, IGN, AFR
+//VE, IGN, AFR, VVT tables resize
 #define VE_RPM_COUNT 32
 #define VE_LOAD_COUNT 32
 #define IGN_RPM_COUNT 32
 #define IGN_LOAD_COUNT 32
 #define FUEL_LOAD_COUNT 32
 #define FUEL_RPM_COUNT 32
+#define VVT_TABLE_SIZE 16
 
 // Comms
 #define ts_show_spi true
@@ -34,9 +38,7 @@
 //Not useful
 #define ts_show_check_engine false
 #define ts_show_analog_divider false
-#define ts_show_tunerstudio_port false
 #define ts_show_main_relay false
-
 
 //Disable more than 8 cylinders
 //#define ts_show_fuel_trim_cylinder_10 false
