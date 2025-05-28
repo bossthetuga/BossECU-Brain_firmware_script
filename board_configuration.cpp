@@ -95,6 +95,8 @@ void setBoardConfigOverrides() {
 	engineConfiguration->clt.config.bias_resistor = 2490;
 	engineConfiguration->iat.config.bias_resistor = 2490;
 
+	engineConfiguration->bluetoothSerialDevice = &uart1;
+	
 	//CAN 1 bus overwrites
 	engineConfiguration->canRxPin = Gpio::D0;
 	engineConfiguration->canTxPin = Gpio::D1;
