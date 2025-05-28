@@ -5,7 +5,6 @@
  */
 
 #include "pch.h"
-extern Logging* uart1;
 
 static void setInjectorPins() {
 	engineConfiguration->injectionPins[0] = Gpio::F13;
@@ -96,7 +95,7 @@ void setBoardConfigOverrides() {
 	engineConfiguration->clt.config.bias_resistor = 2490;
 	engineConfiguration->iat.config.bias_resistor = 2490;
 
-	engineConfiguration->bluetoothSerialDevice = &uart1;
+	engineConfiguration->bluetoothSerial = UART_DEVICE_USART1;
 	
 	//CAN 1 bus overwrites
 	engineConfiguration->canRxPin = Gpio::D0;
