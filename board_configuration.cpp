@@ -5,6 +5,7 @@
  */
 
 #include "pch.h"
+extern Logging* uart1;
 
 static void setInjectorPins() {
 	engineConfiguration->injectionPins[0] = Gpio::F13;
