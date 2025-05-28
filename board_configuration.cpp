@@ -6,7 +6,7 @@
 
 #include "pch.h"
 #include "uart_uart.h"
-Logging uart1;
+extern Logging uart1;
 
 void initBoard() {
     // Other initialization...
