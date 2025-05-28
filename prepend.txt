@@ -3,6 +3,7 @@
 //Test
 #define ts_show_tunerstudio_port true
 #define EFI_ENABLE_BLUETOOTH
+#define BLUETOOTH_DEVICE UART_DEVICE_USART1
 
 //Features
 #define ts_show_etb_pins true
