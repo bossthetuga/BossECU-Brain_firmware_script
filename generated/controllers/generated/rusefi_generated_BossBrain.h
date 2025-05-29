@@ -130,6 +130,7 @@
 #define BLEND_TABLE_COUNT 8
 #define blend_table_s_size 188
 #define BLOCKING_FACTOR 1024
+#define BLUETOOTH_DEVICE UART_DEVICE_USART1
 #define BOARD_CAM_SETTINGS_FILE 
 #define BOARD_CONSTANTS_EXTENSIONS_FROM_FILE 
 #define BOARD_CURVES_FROM_FILE 
@@ -1440,7 +1441,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 1150837313
+#define SIGNATURE_HASH 3737560851
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1961,7 +1962,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.05.28.BossBrain.1150837313"
+#define TS_SIGNATURE "rusEFI main.2025.05.29.BossBrain.3737560851"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
