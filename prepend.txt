@@ -2,6 +2,7 @@
 
 //Test
 #define ts_show_tunerstudio_port true
+#define EFI_BLUETOOTH_SETUP TRUE
 
 //Features
 #define ts_show_etb_pins true
