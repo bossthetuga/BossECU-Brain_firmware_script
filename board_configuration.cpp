@@ -5,11 +5,6 @@
  */
 
 #include "pch.h"
-#include "msc/usb_msd.h"
-
-#if EFI_USB_MSD
-usb_msd_init();
-#endif
 
 static void setInjectorPins() {
 	engineConfiguration->injectionPins[0] = Gpio::F13;
