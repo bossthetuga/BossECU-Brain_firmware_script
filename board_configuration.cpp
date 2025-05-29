@@ -5,6 +5,7 @@
  */
 
 #include "pch.h"
+#include "msc/usb_msd.h"
 
 #if EFI_USB_MSD
 usb_msd_init();
