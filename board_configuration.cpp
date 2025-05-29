@@ -6,6 +6,10 @@
 
 #include "pch.h"
 
+#if EFI_USB_MSD
+usb_msd_init();
+#endif
+
 static void setInjectorPins() {
 	engineConfiguration->injectionPins[0] = Gpio::F13;
 	engineConfiguration->injectionPins[1] = Gpio::F14;
@@ -91,8 +95,6 @@ void setBoardConfigOverrides() {
 	setupVbatt();
 	setEtbConfig();
 	setStepperConfig();
-	
-	engineConfiguration->tunerStudioSerialDevice = &usbSerial;
 	
 	engineConfiguration->clt.config.bias_resistor = 2490;
 	engineConfiguration->iat.config.bias_resistor = 2490;
