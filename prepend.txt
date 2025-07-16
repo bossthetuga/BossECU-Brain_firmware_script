@@ -1,44 +1,44 @@
 ! example of .ini file templating option
-#define MAIN_HELP_URL "https://discord.com/invite/dHEymCZ"
+//#define MAIN_HELP_URL "https://discord.com/invite/dHEymCZ"
 
 //Test
-#define ts_show_tunerstudio_port true
+//#define ts_show_tunerstudio_port true
 
 //Features
-#define ts_show_etb_pins true
-#define ts_show_software_knock true
-#define ts_show_egt true
-#define ts_drop_template_comments true
-#define ts_show_k_line true
-#define ts_show_maf true
+//#define ts_show_etb_pins true
+//#define ts_show_software_knock true
+//#define ts_show_egt true
+//#define ts_drop_template_comments true
+//#define ts_show_k_line true
+//#define ts_show_maf true
 
 //VE, IGN, AFR, VVT tables resize
-#define VE_RPM_COUNT 32
-#define VE_LOAD_COUNT 32
-#define IGN_RPM_COUNT 32
-#define IGN_LOAD_COUNT 32
-#define FUEL_LOAD_COUNT 32
-#define FUEL_RPM_COUNT 32
-#define VVT_TABLE_SIZE 16
+//#define VE_RPM_COUNT 32
+//#define VE_LOAD_COUNT 32
+//#define IGN_RPM_COUNT 32
+//#define IGN_LOAD_COUNT 32
+//#define FUEL_LOAD_COUNT 32
+//#define FUEL_RPM_COUNT 32
+//#define VVT_TABLE_SIZE 16
 
 // Comms
-#define ts_show_spi true
-#define ts_show_can2 true
-#define ts_show_sd_card true
-#define ts_show_sd_pins true
+//#define ts_show_spi true
+//#define ts_show_can2 true
+//#define ts_show_sd_card true
+//#define ts_show_sd_pins true
 
 //Not used
-#define ts_show_hardware_simulator false
-#define ts_show_tcu false
-#define ts_show_gdi false
-#define ts_show_fancy_hardware false
-#define ts_show_hd false
-#define ts_show_clt_iat_pullup false
+//#define ts_show_hardware_simulator false
+//#define ts_show_tcu false
+//#define ts_show_gdi false
+//#define ts_show_fancy_hardware false
+//#define ts_show_hd false
+//#define ts_show_clt_iat_pullup false
 
 //Not useful
-#define ts_show_check_engine false
-#define ts_show_analog_divider false
-#define ts_show_main_relay false
+//#define ts_show_check_engine false
+//#define ts_show_analog_divider false
+//#define ts_show_main_relay false
 
 //Disable more than 8 cylinders
 //#define ts_show_fuel_trim_cylinder_10 false
@@ -65,4 +65,4 @@
 //#define IAT_IGN_CORR_COUNT 6
 
 ! example of table size override
-#define IGN_TRIM_SIZE 8
+//#define IGN_TRIM_SIZE 8
