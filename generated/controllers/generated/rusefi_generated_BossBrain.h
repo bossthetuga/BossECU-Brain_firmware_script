@@ -612,6 +612,9 @@
 #define GAUGE_CATEGORY_SYNC "Sync"
 #define GAUGE_CATEGORY_TIMING "Timing"
 #define GAUGE_COIL_DWELL_TIME "Ignition: coil charge time"
+#define GAUGE_LONG_NAME_AAT "Ambient Temperature"
+#define GAUGE_LONG_NAME_CLT "Coolant temp"
+#define GAUGE_LONG_NAME_IAT "Intake air temp"
 #define GAUGE_LUA_FROM_0 -30000
 #define GAUGE_LUA_FROM_1 -30000
 #define GAUGE_LUA_FROM_2 -30000
@@ -786,6 +789,7 @@
 #define GAUGE_NAME_WARNING_COUNTER "Warning: counter"
 #define GAUGE_NAME_WARNING_LAST "Warning: last"
 #define GAUGE_NAME_WG_POSITION "Wastegate position sensor"
+#define GAUGE_PRECISION_TEMPERATURE_C 1,1
 #define gear_controller_e_enum "None", "Button Shift", "Automatic", "Generic"
 #define GEAR_DETECTION_DIALOG_NAME "Gear Detection"
 #define gear_e_GEAR_1 1
@@ -1411,13 +1415,13 @@
 #define PACK_MULT_VSS 100
 #define PACK_PERCENT_BYTE_MULT 100.0
 #define PAGE_SIZE_1 256
-#define PAGE_SIZE_2 2816
+#define PAGE_SIZE_2 3200
 #define PEDAL_TO_TPS_RPM_SIZE 8
 #define PEDAL_TO_TPS_SIZE 8
 #define pedalSensor_NAME "Accelerator pedal"
 #define pedalToTpsTbl_NAME "ETB pedal target"
 #define PERCENT_TRIM_BYTE_PACKING_DIV 0.02
-#define persistent_config_s_size 25196
+#define persistent_config_s_size 25300
 #define pid_s_size 20
 #define pin_input_mode_e_auto_enum 0="PI_DEFAULT",4="PI_INVERTED_DEFAULT",6="PI_INVERTED_PULLDOWN",5="PI_INVERTED_PULLUP",2="PI_PULLDOWN",1="PI_PULLUP"
 #define pin_input_mode_e_enum "DEFAULT", "PULLUP", "PULLDOWN", "INVALID", "INVERTED DEFAULT", "INVERTED PULLUP", "INVERTED PULLDOWN"
@@ -1496,7 +1500,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 1116007801
+#define SIGNATURE_HASH 4214199211
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1564,7 +1568,7 @@
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_BUTTON 0
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_DOWN_SWITCH 2
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_UP_SWITCH 3
-#define TOTAL_CONFIG_SIZE 25196
+#define TOTAL_CONFIG_SIZE 25300
 #define TPS_2_BYTE_PACKING_MULT 100
 #define TPS_PPS_TOO_HIGH_THRESHOLD 110
 #define TPS_PPS_TOO_LOW_THRESHOLD -10
@@ -2039,7 +2043,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.07.17.BossBrain.1116007801"
+#define TS_SIGNATURE "rusEFI main.2025.07.17.BossBrain.4214199211"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
@@ -2078,6 +2082,7 @@
 #define UiMode_FULL 0
 #define UiMode_INSTALLATION 1
 #define UiMode_TUNING 2
+#define UNITS_CELSIUS "C"
 #define VBAT_INJECTOR_CURVE_PRESSURE_SIZE 2
 #define VBAT_INJECTOR_CURVE_SIZE 8
 #define VE_BLEND1_TABLE_NAME "VE blend 1"
@@ -2090,7 +2095,7 @@
 #define ve_override_e_VE_MAP 1
 #define ve_override_e_VE_None 0
 #define ve_override_e_VE_TPS 2
-#define VE_RPM_COUNT 22
+#define VE_RPM_COUNT 25
 #define VE_TABLE_NAME "VE Table"
 #define VEHICLE_INFO_SIZE 32
 #define VIN_NUMBER_SIZE 17
