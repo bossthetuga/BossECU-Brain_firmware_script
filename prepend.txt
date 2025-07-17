@@ -13,8 +13,8 @@
 #define ts_show_maf true
 
 //VE, IGN, AFR, VVT tables resize
-#define VE_RPM_COUNT 30
-#define VE_LOAD_COUNT 30
+#define VE_RPM_COUNT 25
+#define VE_LOAD_COUNT 25
 #define IGN_RPM_COUNT 16
 #define IGN_LOAD_COUNT 16
 #define FUEL_LOAD_COUNT 32
