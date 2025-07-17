@@ -17,8 +17,8 @@
 //#define VE_LOAD_COUNT 32
 //#define IGN_RPM_COUNT 32
 //#define IGN_LOAD_COUNT 32
-//#define FUEL_LOAD_COUNT 32
-//#define FUEL_RPM_COUNT 32
+#define FUEL_LOAD_COUNT 32
+#define FUEL_RPM_COUNT 32
 #define VVT_TABLE_SIZE 16
 
 //Comms
