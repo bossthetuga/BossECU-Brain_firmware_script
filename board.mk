@@ -6,8 +6,8 @@ BOARDINC += $(BOARD_DIR)/generated/controllers/generated
 # defines SHORT_BOARD_NAME
 include $(BOARD_DIR)/meta-info.env
 
-# this would save some flash while being unable to update WBO controller firmware
-DDEFS += -DEFI_WIDEBAND_FIRMWARE_UPDATE=FALSE
+# assign critical LED to a non-existent pin
+DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::G11
 
 # assign critical LED to a non-existent pin if you do not have it on your board
 # good old PD14 is still the default value
